@@ -5,7 +5,7 @@ public class Menu {
 	private Scanner inp = new Scanner(System.in);
 	private ArrayList<Student> studenti = new ArrayList<Student>();
    
-	public void Run(Menu m) {
+	public void Run() {
 	   int condition=0;
 	   int count=-1;
 	   while(condition==0) {
@@ -21,18 +21,18 @@ public class Menu {
 			   condition=1;
 			   break;
 		   case(2):
-			   m.Adaugare();
+			   Adaugare();
 		       count++;
 		       break;
 		   case(3):
-			   m.Modificare();
+			   Modificare();
 		       break;
 		   case(4):
-			   m.Stergere();
+			   Stergere();
 		       count--;
 		       break;
 		   case(5):
-			   m.Vizualizare(count);
+			   Vizualizare(count);
 		       break;
 			   
 		   }
