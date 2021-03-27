@@ -8,12 +8,12 @@ Student(String nume,int nota){
 	this.nota=nota;
 }
 
-public void setNume(String numeIntrodus) {
-	nume=numeIntrodus;
+public void setNume(String nume) {
+	this.nume=nume;
 }
 
-public void setNota(int notaIntrodusa) {
-	nota=notaIntrodusa;
+public void setNota(int nota) {
+	this.nota=nota;
 }
    
 public String getNume() {
